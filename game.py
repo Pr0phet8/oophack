@@ -4,7 +4,7 @@ NAMES = ['Грит', 'Фрида', 'Грум', 'Ульрих', 'Святосла
 
 
 class Person:
-    def __init__(self, name, health=100, attack=10, defense=5):
+    def __init__(self, name, health=100, attack=10, defense=3):
         self.name = name
         self.health = health
         self.attack = attack
@@ -18,7 +18,7 @@ class Person:
 
 
 class Paladin(Person):
-    def __init__(self, name, health=200, attack=10, defense=10):
+    def __init__(self, name, health=200, attack=10, defense=6):
         self.name = name
         self.health = health
         self.attack = attack
@@ -26,7 +26,7 @@ class Paladin(Person):
 
 
 class Warrior(Person):
-    def __init__(self, name, health=100, attack=20, defense=5):
+    def __init__(self, name, health=100, attack=20, defense=3):
         self.name = name
         self.health = health
         self.attack = attack
